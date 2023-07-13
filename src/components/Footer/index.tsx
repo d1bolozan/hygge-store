@@ -37,7 +37,7 @@ export const Footer = () => (
             </Link>
           </li>
           <li className='flex items-center rounded bg-gray-500 hover:opacity-75'>
-            <Link className='inline-block p-2' target='_blank' to='https://innstagram.com'>
+            <Link className='inline-block p-2' target='_blank' to='https://instagram.com'>
               <InstagramIcon />
             </Link>
           </li>

@@ -35,7 +35,7 @@ export const footerMenuItems: FooterMenuItemProps[] = [
   {
     submenu: [
       { href: 'living-room', title: 'Living room' },
-      { href: 'diving-room', title: 'Diving room' },
+      { href: 'dining-room', title: 'Dining room' },
       { href: 'decor', title: 'Decor' }
     ],
     title: 'SALE'
