@@ -5,12 +5,12 @@ import { MenuContainer } from '@/components/Menu'
 import { CartIcon, LogoIcon, ProfileIcon, SearchIcon } from '../Icons'
 
 export const Header = () => (
-  <header className='bg-gray-50 text-black'>
+  <header className='bg-background text-black'>
     <div className='mx-auto flex w-full max-w-screen-2xl items-center p-4 md:p-8 lg:px-10 lg:py-0'>
       <MenuContainer className='order-1 lg:order-2 lg:mx-auto' />
       <div className='header__logo order-2 mx-auto flex items-center justify-center lg:order-1  lg:mx-0 lg:justify-start'>
         <Link to='/'>
-          <LogoIcon className='inline-block h-auto w-32' />
+          <LogoIcon className='inline-block h-auto w-24 md:w-32' />
         </Link>
       </div>
 
